@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <parameters>
+      <parameter value="-Xmacro-settings:materialize-derivations" />
+    </parameters>
+    <profile name="sbt 1" modules="cats-effect-fun">
+      <option name="postfixOps" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-Ypartial-unification" />
+      </parameters>
+    </profile>
+  </component>
+</project>
